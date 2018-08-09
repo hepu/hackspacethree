@@ -1,0 +1,39 @@
+#year-filter {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.input {
+  display: inline-block;
+  background-color: #AAA;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.value {
+  display: inline-block;
+  padding: 8px;
+}
+
+.caret {
+  display: inline-block;
+  margin-left: 21px;
+  background-color: #55F;
+  padding: 8px;
+  border-radius: 0 5px 5px 0;
+}
+
+.data-container {
+  background-color: #AAA;
+  max-height: 100px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: #DDF;
+}
